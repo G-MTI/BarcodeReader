@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -17,11 +16,15 @@
 </head>
 <body>
     <h1>Lettore di Codici a Barre con ZXing</h1>
-    <video id="video" width="800" height="600" autoplay></video>
+    <video id="video" width="600" height="400" autoplay></video>
     <div id="sourceSelectPanel" style="display:none">
         <label for="sourceSelect">Change video source:</label>
         <select id="sourceSelect" style="max-width:400px">
         </select>
+    </div>
+    <div>
+        <a class="button" id="startButton">Start</a>
+        <a class="button" id="resetButton">Reset</a>
     </div>
     <div id="result">Risultato: </div>
 
