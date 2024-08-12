@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lettore di Codici a Barre con ZXing</title>
+    <style>
+        #video {
+            border: 1px solid black;
+        }
+        #result {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lettore di Codici a Barre con ZXing</h1>
+    <video id="video" width="300" height="200" autoplay></video>
+    <div id="result">Risultato: </div>
+
+    <!-- Inclusione della libreria ZXing -->
+    <script src="https://unpkg.com/@zxing/library@latest"></script>
+    <script src="script.js">
+    </script>
+</body>
+</html>
